@@ -145,6 +145,14 @@ input:valid{
     border-color: 2px green;
 }
 
+select:focus{
+    outline: none;
+    border-color: #7a7a7a;
+}
+select:invalid:not(:focus){
+    border-color: #7a7a7a;
+}
+
 select:valid{
     border-color: green;
 }
