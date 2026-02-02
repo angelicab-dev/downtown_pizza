@@ -108,7 +108,7 @@ input[type=reset]:hover {
   color: white;
 }
 textarea{
-    width: 500px;
+    width: auto;
 }
 
 caption{
